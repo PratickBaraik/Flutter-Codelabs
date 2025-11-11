@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return ChangeNotifierProvider(
       create: (context) => MyAppState(),
       // Use a Consumer so MaterialApp's theme reacts to MyAppState.seedColor
